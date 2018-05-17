@@ -1,0 +1,54 @@
+到目前为此，我们都是用GET方法去请求信息，这一章介绍POST方法，即把信息推送给服务器进行存储和分析。
+
+    表单可以帮助用户发出POST请求，当然，通过爬虫创建这些请求提交给服务器
+
+9.1 Python Requests库
+    Requests库是一个擅长处理那些复杂的HTTP请求、cookie、header（响应头和请求头）等内容的Python第三方库
+
+   https://github.com/requests/requests
+
+9.2 提交一个基本表单
+   大多数网页表单都是由一些HTML字段、一个提交按钮、一个在表单处理完之后跳转的“执行结果”（action的值）页面构成。
+
+   大多数主流网站都会有robots.txt文件里注明禁止爬虫接入登录表单
+
+   http://pythonscraping.com/pages/files/form.html
+
+   表单的源代码：
+
+<form method="post" action="processing.php">
+First name: <input type="text" name="firstname"><br>
+Last name: <input type="text" name="lastname"><br>
+<input type="submit" value="Submit">
+</form>
+
+   切记：HTML表单的目的，只是帮助网站的访问者发送格式合理的请求，向服务器请求没有出现的页面。
+
+
+9.3 单选按钮、复选框和其他输入
+   HTML标准里提供了大量可用的表单字段：单选按钮、复选框和下拉选框等。在HTML5里面，还有其他的控件，像滚动条、邮箱、日期等。自定义的JavaScript字段可谓无所不能，可以实现取色器、日历以及开发者能想到的任何功能。
+
+   如果你不确定一个输入字段值的数据格式，有些工具可以跟踪浏览器正在通过网站发出或接受的GET和POST请求的内容。
+
+   最简单的方法就是用 Chrome 浏览器的审查元素(inspector)或开发者工具查看
+
+9.4 提交文件和图像
+<form action="processing2.php" method="post" enctype="multipart/form-data">
+Submit a jpg, png, or gif: <input type="file" name="image"><br>
+<input type="submit" value="Upload File">
+</form>
+
+9.5 处理登录和cookie
+   一旦网站验证了你的登录权证，它就会将它们保存在你的浏览器的cookie中，里面通常包含一个服务器生成的令牌、登录有效时限和状态跟踪信息。网站会把这个cookie当作信息验证的证据，在你浏览网站的每个页面是出示给服务器。
+
+   http://pythonscraping.com/pages/cookies/login.html，用户名任意，密码:password
+  用 Requests 库跟踪 cookie 同样很简单
+
+Requests 是一个非常给力的库,程序员完全不用费脑子,也不用写代码,可能只逊色于Selenium
+HTTP基本接入认证：在发明cookie之前，处理网站登录最常用的方法就是用HTTP基本接入认证。在一些安全性较高的网站或公司网站，以及一些API的使用上
+http://pythonscraping.com/pages/auth/login.php
+
+9.6 其他表单问题
+表单是网络恶意机器人(malicious bots)酷爱的网站切入点。你当然不希望机器人创建垃圾账号,占用昂贵的服务器资源,或者在博客上提交垃圾评论。因此,新式的网站经常在HTML 中使用很多安全措施,让表单不能被快速穿越。
+
+关于验证码(CAPTCHA)的作用,请查看第 11 章内容,里面介绍了 Python 的图像处理和文本识别方法。

@@ -1,0 +1,51 @@
+用一些Python库来识别和使用在线图片中的文字。
+
+    将图像翻译成文字一般被称为光学文字识别（Optical Character Recognition, OCR）。
+
+11.1 OCR库概述
+     虽然有很多库可以进行图像处理，这里只重点介绍两个库：Pillow和Tesseract。
+
+     Pillow是从Python 2.x版本的Python图像库（PIL）分出来的，支持Python 3.x版本，图像处理库
+
+     Tesseract是一个OCR库，目前有Googel赞助，目前公认最优秀、最精确的开源OCR系统。除了极高的
+精确度，也具有很高的灵活性。它可以通过训练识别出任何字体（只要风格不变），也可以识别出Unicode字符。
+
+     sudo apt-get install tesseract-ocr
+
+     export TESSDATA_PREFIX=C:\Users\Administrator\PycharmProjects\tessdata_prefix    #训练的数据文件存储在哪里
+
+11.2 处理格式规范的文字
+格式规范的文字具有以下特点：
+
+使用一个标准字体（不包含手写体）
+虽然被复印或拍照,字体还是很清晰,没有多余的痕迹或污点
+排列整齐,没有歪歪斜斜的字
+没有超出图片范围,也没有残缺不全,或紧紧贴在图片的边缘
+    $tesseract text.tif textoutput | cat textoutput.txt
+
+可以先用Python脚本对图片进行清理。利用Pillow库，创建一个阀值过滤器来去掉渐变的背景色，
+只把文字留下来，从而让图片更加清晰，便于Tesseract读取：
+
+
+从网站图片中抓取文字
+   亚马逊上http://www.amazon.com/War-Peace-Leo-Nikolayevich-Tolstoy/dp/1427030200托尔斯泰的《战争与和平》的大字号印刷版
+
+   下载图片，识别图片，最后打印每个图片的文字
+
+   11.3 读取验证码与训练Tesseract
+   验证码，CAPTCHA图灵测试
+
+流行的 PHP 内容管理系统 Drupal 有一个著名的验证码模块(https://www.drupal.org/project/captcha),可以生成不同难度的验证码
+
+   训练 Tesseract
+           在线工具 Tesseract OCR Chopper(http://pp19dd.com/tesseract-ocr-chopper/)
+
+   我写了一个 Python 版的解决方案(https://github.com/REMitchell/tesseract-trainer)来处理同
+
+   我推荐你仔细阅读 Tesseract的文档(https://github.com/tesseract-ocr/tesseract/
+
+
+   11.4 获取验证码提交答案
+        常用的处理方法就是,首先把验证码图片下载到硬盘里,清理干净,然后用 Tesseract 处理图片,最后返回符合网站要求的识别结果。
+
+        http://pythonscraping.com/humans-only

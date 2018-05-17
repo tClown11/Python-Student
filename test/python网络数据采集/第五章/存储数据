@@ -1,0 +1,74 @@
+    本章将介绍三种主要的数据管理方法，对绝大多数应用都适用。
+如果你准备创建一个网站的后端服务或者创建自己的API，那么可能
+都需要让爬虫把数据写入数据库。如果你需要一个快速简单的方法收
+集网上的文档，然后存到你的硬盘里，那么可能需要创建一个文件流
+来实现。如果还要为偶然事件提醒，或者每天定时收集当天累计的数
+据，就给自己发一封邮件吧！
+
+
+
+5.1 媒体文件
+    只存储文件的URL链接的缺点：
+
+        1、这些内嵌在你的网站或应用中的外站URL链接被称为盗链（hotlinking）
+，使用盗链可能会让你麻烦不断，每个网站都会实施防盗链措施。
+        2、因为你的链接文件在别人的服务器上，所以你的应用就要跟着别人的节奏运行了。
+        3、盗链是很容易改变的。如果你把盗链图片放在博客上，要是被对方服务器发现，
+很可能被恶搞。如果你把URL链接存起来准备以后再用，可能用的时候链接已经
+失效了，或者是变成了完全无关的内容。
+        4、现实中的网络浏览器不仅可以请求HTML页面并切换页面，它们也会下载访问页
+面上所有的资源。下载文件会让你的爬虫看起来更像是人在浏览网站，这样做反而有好处。
+
+
+在 Python 3.x 版本中, urllib.request.urlretrieve 可以根据文件的 URL 下载文件:
+
+
+
+注：这个程序没有对所有下载文件的类型进行检查，也不应用管理员权限运行它，记得经常备份重要的文件，不要在硬盘上存储敏感信息。
+
+
+5.2 把数据存储到CSV
+
+   逗号分隔值
+
+
+5.3 MySQL
+$sudo apt-get install mysql-server
+
+mysql -u root -p
+
+create database scraping;
+use scraping;
+create table pages (id BIGINT(7) NOT NULL AUTO_INCREMENT, title VARCHAR(200), content VARCHAR(10000), created TIMESTAMP DEFAULT CURRENT_TIMESTAMP, PRIMARY KEY (id));
+
+describe pages;
+
+insert into pages (title, content) VALUES ("Test page title", "This is some test page content. It can be up to 10,000 characters long.");
+
+select * from pages where id=1;
+
+select * from pages where title like "%test%";     ########
+
+delete from pages where id = 1;
+
+
+与Python整合
+
+
+
+
+        连接和光标模式是数据库编程中常用的模式。连接模式除了要连接数据库之外，
+还要发送数据库信息，处理回滚操作，创建新的光标对象，等等。而一个连接可以有很多个光标，
+一个光标跟踪一种状态信息，比如跟踪数据库的使用状态。如果你有多个数据库，且需要向所有数
+据库写内容，就需要多个光标来处理。光标还会包含最后一次查询执行的结果。通过调用光标函数
+，比如cur.fetchone()
+
+MySQL里的“六度空间游戏”
+页面A到页面B的链接：insert into links (fromPageId, toPageId) values (A, B)
+
+需要设计一个带有两张数据表的数据库来分别存储页面和链接，两张表都带有创建时间和独立的ID号
+
+create table pages ( id INT NOT NULL AUTO_INCREMENT, url VARCHAR(255) NOT NULL, created TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP, PRIMARY KEY(id));
+
+create table links (id INT NOT NULL AUTO_INCREMENT, fromPageId INT NULL, toPageId INT NULL, created TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP, PRIMARY KEY (id));
+

@@ -1,0 +1,67 @@
+一般情况下，程序员可以用HTPP协议向API发起请求以获取某种信息，
+API会用XML或JSON格式返回服务器响应的信息。
+
+
+    通常不会把使用API看成网络数据采集，但是实际上两者使用的
+许多技术（都是发送HTTP请求）和产生的结果（都是获取信息）差不
+多；两者经常是相铺相成的关系。
+    如把维基百科编辑历史（里面有编辑者IP地址）和一个IP地址解
+析的API组合起来，以获取维基百科词条编辑者的地理位置。
+
+
+4.1  API概述
+    操作系统除了协调应用程序的执行、内存分配、系统资源管理外，
+同时也是一个很大的服务中心，调用这个服务中心的各种服务（每一种
+服务是一个函数），可以帮助应用程序达到开启视窗、描绘图形、使用周
+边设备的目的，由于这些函数服务的对象是应用程序(Application),所
+以称之为Application Programming Interface，简称API函数。
+
+
+4.2 API通用规则
+
+        API用一套非常标准的规则生成数据，而且生成的数据也是按照
+            非常标准的方式组织的。
+
+        四种方式：GET, POST, PUT, DELETE
+
+        验证：要求客户验证
+
+
+4.3 服务器响应
+   大多数反馈的数据格式是XML和JSON
+
+    过去，服务器端用PHP和.NET这些程序作为API的接收端。现在，服务器端也会用一些JavaScript框架作为API的发送和接收端，像Angular或Backbone等。
+
+   API调用：
+
+4.4 Echo Nest
+     The Echo Nest 音乐数据网站 https://developer.echonest.com/account/register
+
+
+4.5 Twitter API
+     https://apps.twitter.com/app/new
+
+     pip install twitter
+
+
+
+ 4.6 Google API
+    无论你想处理哪种信息,包括语言翻译、地理位置、日历,甚至基因数据,Google 都提供了API。
+Google 还为它的一些知名应用提供 API,比如 Gmail、YouTube 和 Blogger 等。
+
+4.7 解析JSON数据
+
+
+4.8 回到主题
+    把多个数据源组合成新的形式，或者把API作为一种工具，从全新的视角对采集到的数据进行解释。
+
+    首先做一个采集维基百科的基本程序，寻找编辑历史页面，然后把编辑历史里面的IP地址找出来
+
+
+
+4.9 再说一点API
+Leonard Richardson、Mike Amundsen 和 Sam Ruby 的 RESTful Web APIs
+(http://shop.oreilly.com/product/0636920028468.do)为网络 API 的用法提供了非常全面的理论
+与实践指导。另外,Mike Amundsen 的精彩视频教学课程 Designing APIs for the Web
+(http://shop.oreilly.com/product/110000125.do),也可以教你创建自己的 API。如果你想把自己采集
+的数据用一种便捷的方式分享出来,他的视频非常有用
