@@ -18,7 +18,7 @@
       <file leaf-file-name="图形验证码的识别.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Python3网络爬虫开发实战/第八章/图形验证码的识别.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state relative-caret-position="0">
               <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="21" />
               <folding>
                 <element signature="e#6#22#0" expanded="true" />
@@ -30,79 +30,44 @@
       <file leaf-file-name="读写csv.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/数据分析/读写csv.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="792">
+            <state relative-caret-position="-9">
               <caret line="22" column="9" lean-forward="false" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Splash的使用.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Splash的使用.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Python3网络爬虫开发实战/第七章/Splash的使用.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="-477">
+              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding>
+                <element signature="e#16#46#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python3网络爬虫开发实战/第七章/config.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-9">
+              <caret line="8" column="59" lean-forward="false" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lianxi.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python3网络爬虫开发实战/第八章/lianxi.py">
+      <file leaf-file-name="Selenium.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Python3网络爬虫开发实战/第七章/Selenium.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="3" column="25" lean-forward="false" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+            <state relative-caret-position="900">
+              <caret line="43" column="67" lean-forward="false" selection-start-line="43" selection-start-column="67" selection-end-line="43" selection-end-column="67" />
               <folding>
-                <element signature="e#0#16#0" expanded="true" />
+                <element signature="e#8#38#0" expanded="true" />
               </folding>
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="imagetext.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python3网络爬虫开发实战/第八章/imagetext.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="3" column="25" lean-forward="false" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#16#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="code2.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python3网络爬虫开发实战/第八章/code2.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="code1.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python3网络爬虫开发实战/第八章/code1.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="code.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python3网络爬虫开发实战/第八章/code.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CCode.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python3网络爬虫开发实战/第八章/CCode.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="code_2.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python3网络爬虫开发实战/第八章/code_2.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
           </provider>
         </entry>
       </file>
@@ -129,8 +94,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/python网络数据采集/第九章/穿越网页表单与登录窗口进行采集" />
-        <option value="$PROJECT_DIR$/python网络数据采集/第十章/Selenium的初次应用.py" />
         <option value="$PROJECT_DIR$/python网络数据采集/第十章/loadedButton的按钮检测页面是不是已经完全加载.py" />
         <option value="$PROJECT_DIR$/python网络数据采集/第十章/txet.py" />
         <option value="$PROJECT_DIR$/python网络数据采集/第十章/客户端重定向.py" />
@@ -179,11 +142,13 @@
         <option value="$PROJECT_DIR$/Python3网络爬虫开发实战/第八章/lianxi.py" />
         <option value="$PROJECT_DIR$/Python3网络爬虫开发实战/第八章/图形验证码的识别.py" />
         <option value="$PROJECT_DIR$/数据分析/读写csv.py" />
+        <option value="$PROJECT_DIR$/Python3网络爬虫开发实战/第七章/config.py" />
         <option value="$PROJECT_DIR$/Python3网络爬虫开发实战/第七章/Splash的使用.py" />
+        <option value="$PROJECT_DIR$/Python3网络爬虫开发实战/第七章/Selenium.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="944" />
     <option name="width" value="980" />
     <option name="height" value="1080" />
@@ -242,8 +207,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -277,7 +242,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.读写csv">
+  <component name="RunManager" selected="Python.Splash的使用">
     <configuration name="图形验证码的识别" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -380,7 +345,7 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="Selenium动作链" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Selenium" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -392,7 +357,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="test" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python3网络爬虫开发实战/第七章/Selenium动作链.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python3网络爬虫开发实战/第七章/Selenium.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -414,6 +379,23 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
+    <configuration name="Splash的使用" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python3网络爬虫开发实战/第七章" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="test" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python3网络爬虫开发实战/第七章/Splash的使用.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration name="ajax实战演练_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -427,6 +409,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="test" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python3网络爬虫开发实战/第六章/ajax实战演练_2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="config" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python3网络爬虫开发实战/第七章" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="test" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python3网络爬虫开发实战/第七章/config.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -465,53 +464,20 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="lianxi" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python3网络爬虫开发实战/第八章" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="test" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python3网络爬虫开发实战/第八章/lianxi.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="tesseract的应用" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python网络数据采集/第十一章" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="test" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python网络数据采集/第十一章/tesseract的应用.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.Selenium动作链" />
-      <item index="1" class="java.lang.String" itemvalue="Python.tesseract的应用" />
-      <item index="2" class="java.lang.String" itemvalue="Python.图形验证码的识别" />
-      <item index="3" class="java.lang.String" itemvalue="Python.lianxi" />
-      <item index="4" class="java.lang.String" itemvalue="Python.读写csv" />
+      <item index="0" class="java.lang.String" itemvalue="Python.图形验证码的识别" />
+      <item index="1" class="java.lang.String" itemvalue="Python.读写csv" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Selenium" />
+      <item index="3" class="java.lang.String" itemvalue="Python.config" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Splash的使用" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python.读写csv" />
-        <item index="1" class="java.lang.String" itemvalue="Python.图形验证码的识别" />
-        <item index="2" class="java.lang.String" itemvalue="Python.lianxi" />
-        <item index="3" class="java.lang.String" itemvalue="Python.tesseract的应用" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.Selenium" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Splash的使用" />
+        <item index="2" class="java.lang.String" itemvalue="Python.config" />
+        <item index="3" class="java.lang.String" itemvalue="Python.读写csv" />
+        <item index="4" class="java.lang.String" itemvalue="Python.图形验证码的识别" />
       </list>
     </recent_temporary>
   </component>
@@ -540,18 +506,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="944" y="0" width="980" height="1080" extended-state="1" />
+    <frame x="-9" y="-9" width="1938" height="1098" extended-state="7" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1401766" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.097639486" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297414" sideWeight="0.49624464" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297414" sideWeight="0.5037554" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297414" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.20474137" sideWeight="0.49706623" order="2" side_tool="false" content_ui="tabs" x="26" y="366" width="1864" height="524" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="true" show_stripe_button="true" weight="0.20474137" sideWeight="0.49706623" order="2" side_tool="false" content_ui="tabs" x="26" y="366" width="1864" height="524" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44612068" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39978448" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -599,20 +565,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Python3网络爬虫开发实战/urllib基本库的使用/the third chapter/use of the request module.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="5" column="112" lean-forward="false" selection-start-line="5" selection-start-column="112" selection-end-line="5" selection-end-column="112" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python3网络爬虫开发实战/urllib基本库的使用/the third chapter/result.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1512">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Python3网络爬虫开发实战/第四章/使用XPath.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -854,22 +806,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python3网络爬虫开发实战/第八章/imagetext.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="25" lean-forward="false" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
-        </state>
+    <entry file="file://$PROJECT_DIR$/Python3网络爬虫开发实战/第八章/code_2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python3网络爬虫开发实战/第八章/lianxi.py">
+    <entry file="file://$PROJECT_DIR$/Python3网络爬虫开发实战/第八章/图形验证码的识别.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="25" lean-forward="false" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        <state relative-caret-position="0">
+          <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="21" />
           <folding>
-            <element signature="e#0#16#0" expanded="true" />
+            <element signature="e#6#22#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -894,34 +841,59 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python3网络爬虫开发实战/第八章/code_2.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/Python3网络爬虫开发实战/第八章/lianxi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="3" column="25" lean-forward="false" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python3网络爬虫开发实战/第八章/图形验证码的识别.py">
+    <entry file="file://$PROJECT_DIR$/Python3网络爬虫开发实战/第八章/imagetext.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="21" />
+        <state relative-caret-position="108">
+          <caret line="3" column="25" lean-forward="false" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
           <folding>
-            <element signature="e#6#22#0" expanded="true" />
+            <element signature="e#0#16#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/数据分析/读写csv.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
+        <state relative-caret-position="-9">
           <caret line="22" column="9" lean-forward="false" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python3网络爬虫开发实战/第七章/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9">
+          <caret line="8" column="59" lean-forward="false" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Python3网络爬虫开发实战/第七章/Splash的使用.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="-477">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#16#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python3网络爬虫开发实战/第七章/Selenium.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="43" column="67" lean-forward="false" selection-start-line="43" selection-start-column="67" selection-end-line="43" selection-end-column="67" />
+          <folding>
+            <element signature="e#8#38#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
