@@ -4,6 +4,4 @@ n = 0
 for i in inset:
     if i == '1':
         n += 1
-    print(i)
-print(type(i))
 print(n)
